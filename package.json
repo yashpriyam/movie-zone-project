@@ -1,0 +1,62 @@
+{
+  "name": "stealth-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "author": "Yash Priyam <yashpriyam74@gmail.com>",
+  "license": "ISC",
+  "scripts": {
+    "app": "react-scripts start"
+  },
+  "dependencies": {
+    "jsonwebtoken": "^8.5.1",
+    "node-sass": "^7.0.1",
+    "pg": "^8.8.0",
+    "postcss": "^7.0.35",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-router": "^6.2.1",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "^4.0.1",
+    "saslprep": "^1.0.3",
+    "snappy": "^7.1.1",
+    "web-vitals": "^0.2.4"
+  },
+  "resolutions": {
+    "react-error-overlay": "6.0.9"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-loader": "8.1.0",
+    "babel-plugin-module-resolver": "^3.1.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "cross-env": "^5.2.1",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^0.4.1",
+    "parcel-bundler": "^1.9.4",
+    "react-error-overlay": "^6.0.9",
+    "webpack": "4.44.2",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-middleware": "^5.2.1",
+    "webpack-dev-server": "3.11.0"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
